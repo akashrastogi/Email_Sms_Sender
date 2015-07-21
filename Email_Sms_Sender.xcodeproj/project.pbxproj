@@ -12,32 +12,18 @@
 		381CD04C1B5E6A5800BF59F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 381CD04A1B5E6A5800BF59F3 /* Main.storyboard */; };
 		381CD04E1B5E6A5800BF59F3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 381CD04D1B5E6A5800BF59F3 /* Images.xcassets */; };
 		381CD0511B5E6A5800BF59F3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 381CD04F1B5E6A5800BF59F3 /* LaunchScreen.xib */; };
-		381CD05D1B5E6A5800BF59F3 /* SmsSenderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381CD05C1B5E6A5800BF59F3 /* SmsSenderTests.swift */; };
 		381CD0671B5E740B00BF59F3 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 381CD0661B5E740B00BF59F3 /* MessageUI.framework */; };
 		381CD0691B5E80AE00BF59F3 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 381CD0681B5E80AE00BF59F3 /* .gitignore */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		381CD0571B5E6A5800BF59F3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 381CD0391B5E6A5800BF59F3 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 381CD0401B5E6A5800BF59F3;
-			remoteInfo = SmsSender;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		381CD0411B5E6A5800BF59F3 /* SmsSender.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmsSender.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		381CD0411B5E6A5800BF59F3 /* Email_Sms_Sender.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Email_Sms_Sender.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		381CD0451B5E6A5800BF59F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		381CD0461B5E6A5800BF59F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		381CD0481B5E6A5800BF59F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		381CD04B1B5E6A5800BF59F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		381CD04D1B5E6A5800BF59F3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		381CD0501B5E6A5800BF59F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		381CD0561B5E6A5800BF59F3 /* SmsSenderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmsSenderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		381CD05B1B5E6A5800BF59F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		381CD05C1B5E6A5800BF59F3 /* SmsSenderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmsSenderTests.swift; sourceTree = "<group>"; };
 		381CD0661B5E740B00BF59F3 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		381CD0681B5E80AE00BF59F3 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -51,13 +37,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		381CD0531B5E6A5800BF59F3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -67,7 +46,6 @@
 				381CD0681B5E80AE00BF59F3 /* .gitignore */,
 				381CD0661B5E740B00BF59F3 /* MessageUI.framework */,
 				381CD0431B5E6A5800BF59F3 /* SmsSender */,
-				381CD0591B5E6A5800BF59F3 /* SmsSenderTests */,
 				381CD0421B5E6A5800BF59F3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -75,8 +53,7 @@
 		381CD0421B5E6A5800BF59F3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				381CD0411B5E6A5800BF59F3 /* SmsSender.app */,
-				381CD0561B5E6A5800BF59F3 /* SmsSenderTests.xctest */,
+				381CD0411B5E6A5800BF59F3 /* Email_Sms_Sender.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -102,29 +79,12 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		381CD0591B5E6A5800BF59F3 /* SmsSenderTests */ = {
-			isa = PBXGroup;
-			children = (
-				381CD05C1B5E6A5800BF59F3 /* SmsSenderTests.swift */,
-				381CD05A1B5E6A5800BF59F3 /* Supporting Files */,
-			);
-			path = SmsSenderTests;
-			sourceTree = "<group>";
-		};
-		381CD05A1B5E6A5800BF59F3 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				381CD05B1B5E6A5800BF59F3 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		381CD0401B5E6A5800BF59F3 /* SmsSender */ = {
+		381CD0401B5E6A5800BF59F3 /* Email_Sms_Sender */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 381CD0601B5E6A5800BF59F3 /* Build configuration list for PBXNativeTarget "SmsSender" */;
+			buildConfigurationList = 381CD0601B5E6A5800BF59F3 /* Build configuration list for PBXNativeTarget "Email_Sms_Sender" */;
 			buildPhases = (
 				381CD03D1B5E6A5800BF59F3 /* Sources */,
 				381CD03E1B5E6A5800BF59F3 /* Frameworks */,
@@ -134,28 +94,10 @@
 			);
 			dependencies = (
 			);
-			name = SmsSender;
+			name = Email_Sms_Sender;
 			productName = SmsSender;
-			productReference = 381CD0411B5E6A5800BF59F3 /* SmsSender.app */;
+			productReference = 381CD0411B5E6A5800BF59F3 /* Email_Sms_Sender.app */;
 			productType = "com.apple.product-type.application";
-		};
-		381CD0551B5E6A5800BF59F3 /* SmsSenderTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 381CD0631B5E6A5800BF59F3 /* Build configuration list for PBXNativeTarget "SmsSenderTests" */;
-			buildPhases = (
-				381CD0521B5E6A5800BF59F3 /* Sources */,
-				381CD0531B5E6A5800BF59F3 /* Frameworks */,
-				381CD0541B5E6A5800BF59F3 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				381CD0581B5E6A5800BF59F3 /* PBXTargetDependency */,
-			);
-			name = SmsSenderTests;
-			productName = SmsSenderTests;
-			productReference = 381CD0561B5E6A5800BF59F3 /* SmsSenderTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -169,13 +111,9 @@
 					381CD0401B5E6A5800BF59F3 = {
 						CreatedOnToolsVersion = 6.1.1;
 					};
-					381CD0551B5E6A5800BF59F3 = {
-						CreatedOnToolsVersion = 6.1.1;
-						TestTargetID = 381CD0401B5E6A5800BF59F3;
-					};
 				};
 			};
-			buildConfigurationList = 381CD03C1B5E6A5800BF59F3 /* Build configuration list for PBXProject "SmsSender" */;
+			buildConfigurationList = 381CD03C1B5E6A5800BF59F3 /* Build configuration list for PBXProject "Email_Sms_Sender" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -188,8 +126,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				381CD0401B5E6A5800BF59F3 /* SmsSender */,
-				381CD0551B5E6A5800BF59F3 /* SmsSenderTests */,
+				381CD0401B5E6A5800BF59F3 /* Email_Sms_Sender */,
 			);
 		};
 /* End PBXProject section */
@@ -206,13 +143,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		381CD0541B5E6A5800BF59F3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -225,23 +155,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		381CD0521B5E6A5800BF59F3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				381CD05D1B5E6A5800BF59F3 /* SmsSenderTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		381CD0581B5E6A5800BF59F3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 381CD0401B5E6A5800BF59F3 /* SmsSender */;
-			targetProxy = 381CD0571B5E6A5800BF59F3 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		381CD04A1B5E6A5800BF59F3 /* Main.storyboard */ = {
@@ -346,7 +260,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SmsSender/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Email_Sms_Sender;
 			};
 			name = Debug;
 		};
@@ -356,48 +270,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SmsSender/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		381CD0641B5E6A5800BF59F3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = SmsSenderTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmsSender.app/SmsSender";
-			};
-			name = Debug;
-		};
-		381CD0651B5E6A5800BF59F3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = SmsSenderTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmsSender.app/SmsSender";
+				PRODUCT_NAME = Email_Sms_Sender;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		381CD03C1B5E6A5800BF59F3 /* Build configuration list for PBXProject "SmsSender" */ = {
+		381CD03C1B5E6A5800BF59F3 /* Build configuration list for PBXProject "Email_Sms_Sender" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				381CD05E1B5E6A5800BF59F3 /* Debug */,
@@ -406,19 +286,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		381CD0601B5E6A5800BF59F3 /* Build configuration list for PBXNativeTarget "SmsSender" */ = {
+		381CD0601B5E6A5800BF59F3 /* Build configuration list for PBXNativeTarget "Email_Sms_Sender" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				381CD0611B5E6A5800BF59F3 /* Debug */,
 				381CD0621B5E6A5800BF59F3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		381CD0631B5E6A5800BF59F3 /* Build configuration list for PBXNativeTarget "SmsSenderTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				381CD0641B5E6A5800BF59F3 /* Debug */,
-				381CD0651B5E6A5800BF59F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
