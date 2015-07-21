@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		381CD0471B5E6A5800BF59F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381CD0461B5E6A5800BF59F3 /* AppDelegate.swift */; };
+		381CD0491B5E6A5800BF59F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381CD0481B5E6A5800BF59F3 /* ViewController.swift */; };
+		381CD04C1B5E6A5800BF59F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 381CD04A1B5E6A5800BF59F3 /* Main.storyboard */; };
+		381CD04E1B5E6A5800BF59F3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 381CD04D1B5E6A5800BF59F3 /* Images.xcassets */; };
+		381CD0511B5E6A5800BF59F3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 381CD04F1B5E6A5800BF59F3 /* LaunchScreen.xib */; };
+		381CD05D1B5E6A5800BF59F3 /* SmsSenderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381CD05C1B5E6A5800BF59F3 /* SmsSenderTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		381CD0571B5E6A5800BF59F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 381CD0391B5E6A5800BF59F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 381CD0401B5E6A5800BF59F3;
+			remoteInfo = SmsSender;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		381CD0411B5E6A5800BF59F3 /* SmsSender.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmsSender.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		381CD0451B5E6A5800BF59F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		381CD0461B5E6A5800BF59F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		381CD0481B5E6A5800BF59F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		381CD04B1B5E6A5800BF59F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		381CD04D1B5E6A5800BF59F3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		381CD0501B5E6A5800BF59F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		381CD0561B5E6A5800BF59F3 /* SmsSenderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmsSenderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		381CD05B1B5E6A5800BF59F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		381CD05C1B5E6A5800BF59F3 /* SmsSenderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmsSenderTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		381CD03E1B5E6A5800BF59F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		381CD0531B5E6A5800BF59F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		381CD0381B5E6A5800BF59F3 = {
+			isa = PBXGroup;
+			children = (
+				381CD0431B5E6A5800BF59F3 /* SmsSender */,
+				381CD0591B5E6A5800BF59F3 /* SmsSenderTests */,
+				381CD0421B5E6A5800BF59F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		381CD0421B5E6A5800BF59F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				381CD0411B5E6A5800BF59F3 /* SmsSender.app */,
+				381CD0561B5E6A5800BF59F3 /* SmsSenderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		381CD0431B5E6A5800BF59F3 /* SmsSender */ = {
+			isa = PBXGroup;
+			children = (
+				381CD0461B5E6A5800BF59F3 /* AppDelegate.swift */,
+				381CD0481B5E6A5800BF59F3 /* ViewController.swift */,
+				381CD04A1B5E6A5800BF59F3 /* Main.storyboard */,
+				381CD04D1B5E6A5800BF59F3 /* Images.xcassets */,
+				381CD04F1B5E6A5800BF59F3 /* LaunchScreen.xib */,
+				381CD0441B5E6A5800BF59F3 /* Supporting Files */,
+			);
+			path = SmsSender;
+			sourceTree = "<group>";
+		};
+		381CD0441B5E6A5800BF59F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				381CD0451B5E6A5800BF59F3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		381CD0591B5E6A5800BF59F3 /* SmsSenderTests */ = {
+			isa = PBXGroup;
+			children = (
+				381CD05C1B5E6A5800BF59F3 /* SmsSenderTests.swift */,
+				381CD05A1B5E6A5800BF59F3 /* Supporting Files */,
+			);
+			path = SmsSenderTests;
+			sourceTree = "<group>";
+		};
+		381CD05A1B5E6A5800BF59F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				381CD05B1B5E6A5800BF59F3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		381CD0401B5E6A5800BF59F3 /* SmsSender */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 381CD0601B5E6A5800BF59F3 /* Build configuration list for PBXNativeTarget "SmsSender" */;
+			buildPhases = (
+				381CD03D1B5E6A5800BF59F3 /* Sources */,
+				381CD03E1B5E6A5800BF59F3 /* Frameworks */,
+				381CD03F1B5E6A5800BF59F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmsSender;
+			productName = SmsSender;
+			productReference = 381CD0411B5E6A5800BF59F3 /* SmsSender.app */;
+			productType = "com.apple.product-type.application";
+		};
+		381CD0551B5E6A5800BF59F3 /* SmsSenderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 381CD0631B5E6A5800BF59F3 /* Build configuration list for PBXNativeTarget "SmsSenderTests" */;
+			buildPhases = (
+				381CD0521B5E6A5800BF59F3 /* Sources */,
+				381CD0531B5E6A5800BF59F3 /* Frameworks */,
+				381CD0541B5E6A5800BF59F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				381CD0581B5E6A5800BF59F3 /* PBXTargetDependency */,
+			);
+			name = SmsSenderTests;
+			productName = SmsSenderTests;
+			productReference = 381CD0561B5E6A5800BF59F3 /* SmsSenderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		381CD0391B5E6A5800BF59F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Akash;
+				TargetAttributes = {
+					381CD0401B5E6A5800BF59F3 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					381CD0551B5E6A5800BF59F3 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 381CD0401B5E6A5800BF59F3;
+					};
+				};
+			};
+			buildConfigurationList = 381CD03C1B5E6A5800BF59F3 /* Build configuration list for PBXProject "SmsSender" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 381CD0381B5E6A5800BF59F3;
+			productRefGroup = 381CD0421B5E6A5800BF59F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				381CD0401B5E6A5800BF59F3 /* SmsSender */,
+				381CD0551B5E6A5800BF59F3 /* SmsSenderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		381CD03F1B5E6A5800BF59F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				381CD04C1B5E6A5800BF59F3 /* Main.storyboard in Resources */,
+				381CD0511B5E6A5800BF59F3 /* LaunchScreen.xib in Resources */,
+				381CD04E1B5E6A5800BF59F3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		381CD0541B5E6A5800BF59F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		381CD03D1B5E6A5800BF59F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				381CD0491B5E6A5800BF59F3 /* ViewController.swift in Sources */,
+				381CD0471B5E6A5800BF59F3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		381CD0521B5E6A5800BF59F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				381CD05D1B5E6A5800BF59F3 /* SmsSenderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		381CD0581B5E6A5800BF59F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 381CD0401B5E6A5800BF59F3 /* SmsSender */;
+			targetProxy = 381CD0571B5E6A5800BF59F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		381CD04A1B5E6A5800BF59F3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				381CD04B1B5E6A5800BF59F3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		381CD04F1B5E6A5800BF59F3 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				381CD0501B5E6A5800BF59F3 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		381CD05E1B5E6A5800BF59F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		381CD05F1B5E6A5800BF59F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		381CD0611B5E6A5800BF59F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SmsSender/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		381CD0621B5E6A5800BF59F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SmsSender/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		381CD0641B5E6A5800BF59F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SmsSenderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmsSender.app/SmsSender";
+			};
+			name = Debug;
+		};
+		381CD0651B5E6A5800BF59F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SmsSenderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmsSender.app/SmsSender";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		381CD03C1B5E6A5800BF59F3 /* Build configuration list for PBXProject "SmsSender" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				381CD05E1B5E6A5800BF59F3 /* Debug */,
+				381CD05F1B5E6A5800BF59F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		381CD0601B5E6A5800BF59F3 /* Build configuration list for PBXNativeTarget "SmsSender" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				381CD0611B5E6A5800BF59F3 /* Debug */,
+				381CD0621B5E6A5800BF59F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		381CD0631B5E6A5800BF59F3 /* Build configuration list for PBXNativeTarget "SmsSenderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				381CD0641B5E6A5800BF59F3 /* Debug */,
+				381CD0651B5E6A5800BF59F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 381CD0391B5E6A5800BF59F3 /* Project object */;
+}
